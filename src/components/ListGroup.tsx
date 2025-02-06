@@ -13,7 +13,7 @@ function ListGroup() {
     );
 
   return (
-    <Fragment>
+    <>
       <ul className="list-group">
         {items.map((item) => (
           <li key={item} className="list-group-item">
@@ -21,7 +21,7 @@ function ListGroup() {
           </li>
         ))}
       </ul>
-    </Fragment>
+    </>
   );
 }
 
