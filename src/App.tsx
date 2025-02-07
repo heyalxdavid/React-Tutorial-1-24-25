@@ -1,12 +1,10 @@
-// import Message from "./Message";
 import ListGroup from "./components/ListGroup";
-import Message from "./Message";
 
 function App() {
+  let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
   return (
     <div>
-      <ListGroup />
-      <Message />
+      <ListGroup items={items} heading={"cities"} />
     </div>
   );
 }
